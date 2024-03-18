@@ -1,0 +1,211 @@
+.card1{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 3%;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+}
+.middle1 h1{
+    color :purple;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.inner-card{
+    border: 1px solid rgb(177, 171, 171);
+    width: 22%;
+    height: fit-content;
+    padding: 10px;
+
+}
+.inner-card img{
+    width: 100%;
+}
+.inner-card:hover{
+    box-shadow: 0 0 10px #555;
+
+    scale: 1.1;
+}
+.inner-card h3{
+    color: rgb(106, 102, 102);
+    margin: 6%;
+    text-align: center;
+}
+.form1 input{
+    width: 70vw;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(181, 177, 177);
+}
+.form1 textarea{
+    width: 70vw;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid rgb(181, 177, 177);
+}
+.form1 p{
+    margin: 0;
+    color: grey;
+}
+.form1 select{
+    color: grey;
+    width: 71.5vw;
+    font-size: 18px;
+    border-radius: 5px;
+
+    padding: 10px;
+    border: 2px solid rgb(181, 177, 177);
+
+
+}
+.form1  option{
+    width:70%;
+    font-size: 20px;
+    padding: 10px;
+}
+.form1 input[type="button"]{
+    width: 35vw;
+    margin-left: 17vw;
+    margin-bottom: 5%;
+    color: white;
+    background-color: rgb(97, 97, 239);
+    border: 2px solid rgb(97, 97, 239);
+    font-size: 25px;
+    font-weight: 600;
+}
+.middle2{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 4%;
+    height: fit-content;
+    margin-bottom: 3%;
+    width: 60%;
+    margin-top: 0;
+}
+.left{
+    background-color: black;
+    color: white;
+    width: 40%;
+    padding: 8%;
+
+}
+.left h4{
+    color: yellow;
+margin-left: 30px;
+margin-top: 5%;}
+.right input ,textarea{
+    width: 130%;
+    padding: 10px;
+    font-size: 18px;
+}
+.right input[type="submit"]{
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+    width: 40%;
+    margin-left: 50%;
+}
+.middle3{
+    width: 64%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.middle3 iframe{
+    width: 100%;
+}
+.middle4 b
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    text-decoration: underline;
+    font-weight: 900;
+}
+.middle4{
+    margin-top: 0;
+    margin-bottom: 0
+}
+.card2{
+    gap: 2%;
+
+}
+.card2 .inner-card{
+    width: 15%;
+
+    padding: 1%;
+    border: 1px solid rgb(189, 185, 185);
+    border-radius: 3px;
+    height: inherit;
+}
+ .card2 img{
+    height: 30vh;
+ }
+.inner-card h4{
+    color: rgb(105, 100, 100);
+    font-size: 19px;
+    text-align: center;
+}
+.middle-inner{
+    width: 80%;
+    margin: auto;
+}
+.middle-inner p{
+    margin-bottom: 4%;
+}
+.s1{
+    font-size: 40px;
+    color: blue;
+}
+.middle-inner {
+    color: rgb(75, 73, 73);
+}
+.s3{
+    color: skyblue;
+
+}
+.s2{
+    font-size: 35px;
+    color: skyblue;
+}
+.middle-inner h1{
+
+color: black;
+text-align: left;
+margin-bottom: 0;}
+.inner1{
+    width:80% ;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.inner1 h2{
+    color: purple;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.inner-card h2{
+    color: rgb(48, 46, 46);
+}
+.inner1 div{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 3px;
+
+    text-align:center;
+}
+@media only  screen and (max-width:900px) {
+    .left{
+        width: 140%;
+    }
+    
+}

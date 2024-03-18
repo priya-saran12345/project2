@@ -1,0 +1,20 @@
+.mainn{
+    height: 50vh;
+    width: 100%;
+border-radius: 20px;
+
+display: flex;
+align-items: center;
+
+}
+ .mainn img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.fa-solid{
+    font-size: 40px;
+    
+    columns: blue;
+}
+
